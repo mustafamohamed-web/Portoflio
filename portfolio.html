@@ -8,14 +8,14 @@
     <title>Document</title>
 </head>
 <body>
-    <main>
+    
         <header>
             <nav class="navbar">
                 <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About Me</a></li>
-                    <li><a href="pages/projects.html">Projects</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <section class="home">
@@ -24,6 +24,45 @@
                     <button class="btn">Hire Me</button>
                 </div>
             </section>
-    </main>
+            <section id="about">
+                <h1 class="headings">ABOUT ME</h1>
+                <div id="pic">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/background3.JPG" alt="">
+                    <div class="intro">
+                        <h2>Mustafa Mohamed</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="port">
+                <h1 class="headings">PROJECTS</h1>
+                <div class="gallery">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image1.jpeg" alt="">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image2.jpeg" alt="">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image3.jpeg" alt="">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image4.jpeg" alt="">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image5.jpeg" alt="">
+                    <img src="/Users/mustafamohammed/Desktop/portfolio/images/image6.jpeg" alt="">
+                </div>
+            </section>
+
+            <section id="contact">
+                <h1 class="headings">CONTACT</h1>
+                <form action="" class="form">
+                    <input type="text" name="name" class="input" placeholder="Enter your name">
+                    <input type="email" name="email" class="input" placeholder="Enter your email">
+                    <textarea name="msg" id="msg" cols="30" rows="10" placeholder="enter your message"></textarea>
+                   <input type="submit" value="SEND" id="send">
+                </form>
+            </section>
+
+    
 </body>
 </html>
