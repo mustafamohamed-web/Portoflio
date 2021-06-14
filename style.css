@@ -12,6 +12,7 @@
     align-items: center;
     position: sticky;
     top: 0;
+    background-color : grey
 }
 
 .navbar ul{
@@ -144,6 +145,7 @@
 .gallery img{
     width: 360px;
     height: 240px;
+    margin: 10px;
 }
 
 #contact{
@@ -153,6 +155,7 @@
     background-color: black;
     color: white;
     padding: 20px;
+    background-color: wheat;
 }
 
 .form{
@@ -190,4 +193,8 @@
 #send:hover{
     cursor: pointer;
     box-shadow: 0 0 10px white;
+}
+
+html{
+    scroll-behavior : smooth;
 }
